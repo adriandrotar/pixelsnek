@@ -5,46 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="PixelSnek is a pixel art NFT collection on the Cardano blockchain. Join the SNEK community with our unique and collectible art!">
     <title>PixelSnek - A Pixel Art NFT Collection</title>
+    <!-- Link to Google Fonts for Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color: #f3f5f7;
             color: #333;
             text-align: center;
         }
         header {
-            background-color: #ffcc00;
-            padding: 20px;
+            background-color: #2f8f9d; /* Turquoise Blue */
+            color: white;
+            padding: 30px;
+            text-transform: uppercase;
         }
         header h1 {
-            font-size: 3em;
+            font-size: 3.5em;
             margin: 0;
+            letter-spacing: 2px;
         }
         .container {
-            padding: 40px;
+            padding: 40px 20px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #6a3e92; /* Purple */
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            color: #555;
         }
         .link-button {
             display: inline-block;
-            background-color: #4CAF50;
+            background-color: #6a3e92; /* Purple */
             color: white;
-            padding: 10px 20px;
+            padding: 15px 30px;
             margin: 10px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 30px;
             font-size: 1.2em;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
         }
         .link-button:hover {
-            background-color: #45a049;
+            background-color: #8a4eae; /* Lighter Purple */
+            transform: translateY(-3px);
         }
         footer {
             background-color: #333;
             color: white;
-            padding: 10px;
+            padding: 15px;
+            font-size: 0.9em;
         }
         footer p {
             margin: 0;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            .container {
+                padding: 20px;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .link-button {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
         }
     </style>
 </head>
@@ -54,8 +88,8 @@
     </header>
     <div class="container">
         <h2>Your Gateway to Unique Pixel Art NFTs</h2>
-        <p>PixelSnek is a unique collection of pixel art NFTs on the Cardano blockchain, inspired by the SNEK community. Each piece is designed with love and creativity, offering collectible art with a touch of nostalgia.</p>
-        <p>Join the PixelSnek family today and start collecting!</p>
+        <p>PixelSnek is a one-of-a-kind collection of pixel art NFTs on the Cardano blockchain, inspired by the SNEK community. Collect, trade, and showcase these nostalgic pixel masterpieces!</p>
+        <p>Be a part of the growing PixelSnek family and help us spread the SNEK love!</p>
         
         <a href="https://twitter.com/PixelSnek" class="link-button" target="_blank">Follow us on X (@PixelSnek)</a>
         <a href="mailto:pixelsnek.art@gmail.com" class="link-button" target="_blank">Contact Us</a>
