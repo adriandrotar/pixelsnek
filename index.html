@@ -12,8 +12,8 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f3f5f7;
-            color: #333;
+            background-color: #121212; /* Dark Background */
+            color: #e0e0e0; /* Light text color */
             text-align: center;
         }
         header {
@@ -38,7 +38,7 @@
         p {
             font-size: 1.1em;
             margin-bottom: 30px;
-            color: #555;
+            color: #ccc;
         }
         .link-button {
             display: inline-block;
@@ -49,7 +49,7 @@
             text-decoration: none;
             border-radius: 30px;
             font-size: 1.2em;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
             transition: background-color 0.3s ease, transform 0.2s ease;
         }
         .link-button:hover {
@@ -64,6 +64,19 @@
         }
         footer p {
             margin: 0;
+        }
+        .creator-info {
+            font-size: 1em;
+            margin-top: 15px;
+            color: #bbb;
+        }
+        .creator-info a {
+            color: #2f8f9d; /* Turquoise Blue */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .creator-info a:hover {
+            color: #6a3e92; /* Purple */
         }
         @media (max-width: 768px) {
             header h1 {
@@ -96,6 +109,9 @@
     </div>
     <footer>
         <p>&copy; 2024 PixelSnek. All Rights Reserved.</p>
+        <div class="creator-info">
+            <p>Created and owned by <strong>Punkw</strong> | X Handle: <a href="https://twitter.com/punkw_euw" target="_blank">@punkw_euw</a></p>
+        </div>
     </footer>
 </body>
 </html>
